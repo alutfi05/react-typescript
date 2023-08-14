@@ -19,6 +19,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <span className="heading">Taskify</span>
+      <p className="sub__heading">Write and organize your todo lists</p>
       <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>
