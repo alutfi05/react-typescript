@@ -29,9 +29,9 @@ const App: React.FC = () => {
     )
       return;
 
-    let add,
-      active = todos,
-      complete = completedTodos;
+    let add;
+    const active = todos;
+    const complete = completedTodos;
 
     if (source.droppableId === 'TodosList') {
       add = active[source.index];
